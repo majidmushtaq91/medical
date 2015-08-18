@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	
+	<link href='//fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" href="css/camera.css">
+	
+	<link rel="stylesheet" href="css/framework.css">
+	
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.1.1.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/superfish.js"></script>
+	<script src="js/jquery.mobilemenu.js"></script>
+	<script src="js/camera.js"></script>
+	<script src="js/jquery.ui.totop.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#slider').camera({
+				height: '35.75%',
+				loader: true,
+				minHeight: '200px',
+				navigation: false,
+				navigationHover: false,
+				pagination:true,
+				playPause: false,
+				thumbnails: false,
+				fx: 'simpleFade'
+			});
+		});
+	</script>
+	<!--[if (gt IE 9)|!(IE)]><!-->
+		<script src="js/jquery.mobile.customized.min.js"></script>
+	<!--<![endif]-->
+	<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.">
+			</a>
+		</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" media="screen" href="css/ie.css">
+	<![endif]-->
+</head>
+<body>
+	<!--======================== header ============================-->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<!--======================== logo ============================-->
+					<div class="wrapper">
+						<h1>
+							<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+						</h1>
+						
+						<form id="search" action="search.php" method="GET" accept-charset="utf-8" class="search_form">
+							<input type="text" name="s" placeholder="Search...">
+							<a onclick="document.getElementById('search').submit()" href="#">
+								<span class="fa-search"></span>
+							</a>
+						</form>
+						
+						<div class="header_contacts">
+							<h6>
+								One of our representatives will happily contact you within 
+								<span>24 hours.</span>
+								For urgent needs call us at
+							</h6>
+							<h5>
+								(800) 2345-6789
+							</h5>
+						</div>
+						
+					</div>
+					<!--======================== menu ============================-->
+					<nav>
+						<ul class="sf-menu clearfix">
+							
+							<li class="current">
+								<span></span>
+								<a href="index.html">Home</a>
+							</li>
+							
+							<li>
+								<span></span>
+								<a href="index-1.html">About</a>
+								<ul>
+									<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+									<li><a href="#">Conse ctetur adipisicing </a>
+										<ul>
+											<li><a href="#">Lorem ipsum dolor sit amet</a></li>
+											<li><a href="#">Conse ctetur adipisicing </a></li>
+											<li><a href="#">Elit sed do eiusmod tempor</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Elit sed do eiusmod tempor</a></li>
+								</ul>
+							</li>
+							<li>
+								<span></span>
+								<a href="index-2.html">Products</a>
+							</li>
+							<li>
+								<span></span>
+								<a href="index-3.html">Events</a>
+							</li>
+							<li>
+								<span></span>
+								<a href="index-4.html">Contacts</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		
+		<div class="wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="grid_12">
+						<!--=================== slider ==================-->
+						<div class="camera_wrap" id="slider">
+							<div data-src="images/slide1.jpg" data-thumb="images/slide1.jpg">
+								<div class="camera_caption1">
+									<div class="caption_content">
+										<h3>
+											Offering compounded and hard-to-find medications
+										</h3>
+										<h4>
+											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunю
+										</h4>
+									</div>
+								</div>
+							</div>
+							<div data-src="images/slide2.jpg" data-thumb="images/slide2.jpg">
+								<div class="camera_caption2">
+									<div class="caption_content">
+										<h3>
+											Feel the excellence in the pharmaceutical industry 
+										</h3>
+										<h4>
+											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunю
+										</h4>
+									</div>
+								</div>
+							</div>
+							<div data-src="images/slide3.jpg" data-thumb="images/slide3.jpg">
+								<div class="camera_caption3">
+									<div class="caption_content">
+										<h3>
+											Receive easy solutions to complex problems
+										</h3>
+										<h4>
+											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunю
+										</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--======================== content ===========================-->
+	<div id="content">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<div class="border_box">
+						<div class="row">
+							<div class="grid_4">
+								<h4 class="icon_tetle">
+									<span class="fa-medkit"></span>
+									Community Pharmacy
+								</h4>
+								<p>
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.
+								</p>
+							</div>
+							<div class="grid_4">
+								<h4 class="icon_tetle">
+									<span class="fa-user-md"></span>
+									Dispensing Doctors
+								</h4>
+								<p>
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.
+								</p>
+							</div>
+							<div class="grid_4">
+								<h4 class="icon_tetle">
+									<span class="fa-hospital-o"></span>
+									Hospital Pharmacy
+								</h4>
+								<p>
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+					<div class="grid_8">
+						<div class="border_box m_40">
+							<h3>
+								We enable patients to obtain investigational new drugs to treat serious diseases
+							</h3>
+							<p>
+								Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+							</p>
+						</div>
+						<div class="row">
+							<div class="grid_4">
+								<h4>
+									Lorem ipsum dolor sit amet conse ctetur adipisicing elit sed do.
+								</h4>
+								<p>
+									Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.  Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+								</p>
+								<a href="#" class="btn">Read more</a>
+							</div>
+							<div class="grid_4">
+								<h4>
+									Esse cillum dolore eu fugiat nulla pariatur excepteur sint 
+								</h4>
+								<p>
+									Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+								</p>
+								
+								<ul class="list">
+									<li><a href="#">Lorem ipsum dolor sit amet </a></li>
+									<li><a href="#">Conse ctetur adipisicing </a></li>
+									<li><a href="#">Elit sed do eiusmod tempor</a></li>
+									<li><a href="#">Incididunt ut labore </a></li>
+									<li><a href="#">Et dolore magna aliqua</a></li>
+								</ul>
+								<a href="#" class="btn">Read more</a>
+							</div>
+							
+						</div>
+					</div>
+					<div class="grid_4">
+						<h4 class="second">Our Events</h4>
+						
+						<div class="banner_box">
+						
+							<img src="images/page1_img1.jpg" alt="img1">
+							<div class="text">
+								<h5>
+									Lorem ipsum dolor sit amet conse ctetur adipisicing elit sed do.
+								</h5>
+								<p>
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+								</p>
+							</div>
+							
+						</div>
+						
+						<div class="banner_box">
+							<img src="images/page1_img2.jpg" alt="img2">
+							<div class="text">
+								<h5>
+									Lorem ipsum dolor sit amet conse ctetur adipisicing elit sed do.
+								</h5>
+								<p>
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+								</p>
+							</div>
+						</div>
+						
+						<h4 class="second">Testimonials</h4>
+						
+						
+						<div class="testimonial_box">
+							<p>
+								Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+							<h6>Lorem ipsum dolor sit amet </h6>
+						</div>
+						
+					</div>
+				
+			</div>
+			
+			
+		</div>
+	</div>
+	<!--======================== footer ============================-->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="grid_4">
+					<div class="footer_icon_box">
+						<span class="fa-home"></span>
+						<h6>
+							8901 Marmora Road,  Glasgow,<br>D04 89GR
+						</h6>
+					</div>
+					
+				</div>
+				<div class="grid_4">
+					<div class="footer_icon_box second">
+						<span class="fa-phone"></span>
+						<h6 class="second">
+							Call us: 
+						</h6>
+						<h5>(800) 2345-6789</h5>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="footer_icon_box">
+						<span class="fa-envelope-o"></span>
+						<a href="#" class="footer_mail">Admin@demolink.org</a>
+					</div>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="grid_12">
+					<div class="copyright">Private Independent Pharmacy &copy; <span id="copyright-year"></span> | <a href="index-5.html">Privacy Policy</a></div>
+					<div class="footer-link"><!--{%FOOTER_LINK} --></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
